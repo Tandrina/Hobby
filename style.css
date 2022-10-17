@@ -5,18 +5,23 @@
 
 .inner-header{
     max-width: 1120px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     padding: 5px;
     margin: 0px auto;
+    
     background-color: #8fa6cc;
 }
 
 .inner-header h3 {
-    font: 36px Arial, sans-serif;
     padding: 0%;
     margin: 0%;
+    
+    font: 36px Arial, sans-serif;
+    
     color: #202020;
 }
 
@@ -36,8 +41,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+
     height: 100%;
+    padding: 0 10px;
+
     font: 45px;
     list-style-type: none;
 }
@@ -45,41 +52,46 @@
 .navigation a{
     height: 100%;
     padding: 0px 20px;
+   
     background-color: #8fa6cc;
 }
  
 .navigation li a{
-
     font-size: 20px;
-    color: #202020;
     text-decoration: none;
+    
+    color: #202020;
 }
 
- 
 .navigation a:hover{
-    background-color: #b4e4fd;
     padding: 5px 2px;
+    
     color: #202020;
+    background-color: #b4e4fd;
 }
 
 .headline-text{
     max-width: 920px;
+    
     padding: 0px;
     margin: 0 auto;
 }
 
 .headline-text h1{
-    padding: 0px;
+    padding: 20px 0px 0px;
     margin: 5px 5px 0px;
+    
     text-align: center;
 
 }
 
 .inner-box{
     max-width: 920px;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     margin: 0 auto;
 }
 
@@ -88,11 +100,14 @@
     height: 300px;
     padding: 5px;
     margin: 5px;
+    
+    border: 2px dotted #202020;
 }
 
 .inner-box p {
-    font: 26px Arial, sans-serif;
     padding: 5px;
     margin: 5px;
+
+    font: 26px Arial, sans-serif;
     text-align: justify;
 }
